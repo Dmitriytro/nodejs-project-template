@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "template for a nodejs project",
   "main": "src/index.js",
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.9.0"
+  },
   "scripts": {
     "audit": "npm audit",
     "clean": "rm -rf .nyc_output",
